@@ -5,10 +5,9 @@ import {NavLink} from "react-router-dom";
 function Nav(){
     return(
         <nav>
-            <NavLink exact to={"/"} activeClassName={"active"}> ALL  </NavLink>
-            <NavLink to={"/games"} activeClassName={"active"}>  GAMES  </NavLink>
-            <NavLink to={"/television"} activeClassName={"active"}>  TELEVISION  </NavLink>
-            <NavLink to={"/Animation"} activeClassName={"active"}> ANIMATION </NavLink>
+            <NavLink exact to={"/"} activeClassName={"active"}> HOME  </NavLink>
+            <NavLink to={"/games"} activeClassName={"active"}>  See-Tweets  </NavLink>
+            <NavLink to={"/television"} activeClassName={"active"}>  Make-Tweets  </NavLink>
         </nav>
     )
 

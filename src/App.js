@@ -12,11 +12,9 @@ import Color from "./wrapper/Color";
 
 function App() {
     const [data]=React.useState([{name:"Michael", car:"chevy"}, {name:"Tim", car:"Dodge"}, {name:"Jerry", car:"Ford"}])
-
-    let elements = data.map((itm, idx)=>
+    data.map((itm, idx)=>
         <Post key={idx} data={itm}/>
-    )
-
+    );
     return (
         <Router>
             <div className="App">
